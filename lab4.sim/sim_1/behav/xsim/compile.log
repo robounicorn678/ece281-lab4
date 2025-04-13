@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_divider_tb'

@@ -1,0 +1,1756 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:35:27 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 22904
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Apr 11 14:10:23 MDT 2025
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1200
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1128
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+OS font scaling: 150%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+Java executable: 	C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	C27Charles.Liermann
+User home directory: C:/Users/C27Charles.Liermann
+User working directory: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: C:/Users/C27Charles.Liermann/AppData/Roaming/Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: C:/Users/C27Charles.Liermann/AppData/Roaming/Xilinx/Vivado/2024.2/
+Vivado layouts directory: C:/Users/C27Charles.Liermann/AppData/Roaming/Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/vivado.log
+Vivado journal file: 	C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/vivado.jou
+Engine tmp dir: 	C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/.Xil/Vivado-22904-C27-5CG31326RQ
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2024.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent25532 "C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4\lab4.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2024.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_INSTALLVERSION: 2024.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2024.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2024.2/tps/win64/javafx-sdk-21.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2024.2/tps/win64/jre21.0.1_12
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: C:/Xilinx/Vivado/2024.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2024.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vitis/2024.2/bin;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2024.2/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2024.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4:C27-5CG31326RQ-Fri04-11-2025_14-09-26.20
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2024.2/tps/win64
+RDI_USE_JDK21: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2024.2
+XILINX_SDK: C:/Xilinx/Vitis/2024.2
+XILINX_VITIS: C:/Xilinx/Vitis/2024.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2024.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2024.2\bin
+_RDI_CWD: C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 794 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4\lab4.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.xpr 
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 131 MB (+135084kb) [00:00:22]
+// [Engine Memory]: 768 MB (+653326kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  3531 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 794 MB. GUI used memory: 79 MB. Current time: 4/11/25, 2:10:24 PM MDT
+// [Engine Memory]: 820 MB (+14620kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1095.883 ; gain = 41.773 
+// Project name: lab4; location: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_basys3(top_basys3_arch) (top_basys3.vhd)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [GUI Memory]: 156 MB (+18780kb) [00:00:43]
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 39 seconds
+selectCodeEditor("top_basys3.vhd", 221, 384); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 5, 414); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 2, 435); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 3, 593); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 5, 569); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 6, 543); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 2, 541); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 2, 513); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 2, 486); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 4, 463); // ae (top_basys3.vhd)
+// Elapsed time: 143 seconds
+selectCodeEditor("top_basys3.vhd", 611, 218); // ae (top_basys3.vhd)
+// Elapsed time: 74 seconds
+selectCodeEditor("top_basys3.vhd", 390, 512); // ae (top_basys3.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, elevator_controller_fsm(Behavioral) (elevator_controller_fsm.vhd)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, elevator_controller_fsm(Behavioral) (elevator_controller_fsm.vhd)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 2, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectCodeEditor("elevator_controller_fsm.vhd", 921, 236); // ae (elevator_controller_fsm.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("top_basys3.vhd", 538, 534); // ae (top_basys3.vhd)
+// Elapsed time: 27 seconds
+selectCodeEditor("top_basys3.vhd", 42, 285); // ae (top_basys3.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_basys3.vhd", 188, 289); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 330, 405); // ae (top_basys3.vhd)
+// Elapsed time: 91 seconds
+selectCodeEditor("top_basys3.vhd", 329, 417); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 46 seconds
+selectCodeEditor("top_basys3.vhd", 103, 315); // ae (top_basys3.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("top_basys3.vhd", 99, 563); // ae (top_basys3.vhd)
+// Elapsed time: 41 seconds
+selectCodeEditor("top_basys3.vhd", 223, 421); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 26 seconds
+selectCodeEditor("top_basys3.vhd", 92, 235); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 715, 231); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 308, 586); // ae (top_basys3.vhd)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("top_basys3.vhd", 166, 136); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 225, 173); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 223, 185); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 252, 508); // ae (top_basys3.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("top_basys3.vhd", 145, 210); // ae (top_basys3.vhd)
+// Elapsed time: 203 seconds
+selectCodeEditor("top_basys3.vhd", 201, 407); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 375, 496); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 231, 394); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 231, 394, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// Elapsed time: 67 seconds
+selectCodeEditor("top_basys3.vhd", 462, 517); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_basys3.vhd", 319, 610); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 23 seconds
+selectCodeEditor("top_basys3.vhd", 302, 468); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 49 seconds
+selectCodeEditor("top_basys3.vhd", 167, 95); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 17 seconds
+selectCodeEditor("top_basys3.vhd", 222, 135); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 222, 135, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 289, 314); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 289, 314, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 21 seconds
+selectCodeEditor("top_basys3.vhd", 110, 440); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 173, 287); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 173, 287, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 96, 465); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 96, 465, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 138 seconds
+selectCodeEditor("top_basys3.vhd", 295, 506); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("top_basys3.vhd", 248, 564); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 56, 590); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 176, 568); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 235, 591); // ae (top_basys3.vhd)
+// Elapsed time: 142 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top_basys3.vhd", 147, 601); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 173, 588); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 176, 610); // ae (top_basys3.vhd)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // aq (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog0)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'clock_divider_tb' 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'clock_divider_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj clock_divider_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'clock_divider' INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'clock_divider_tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot clock_divider_tb_behav xil_defaultlib.clock_divider_tb -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot clock_divider_tb_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1116.957 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "clock_divider_tb_behav -key {Behavioral:sim_1:Functional:clock_divider_tb} -tclbatch {clock_divider_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 15 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source clock_divider_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 820 MB. GUI used memory: 90 MB. Current time: 4/11/25, 2:35:11 PM MDT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'clock_divider_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 1152.785 ; gain = 35.828 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/h': 28s
+// 'd' command handler elapsed time: 28 seconds
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK", "Run Simulation"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:01s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Critical Messages"); // a (dialog1)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:03s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:05s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton("OptionPane.button", "OK", "Background Task"); // JButton (OptionPane.button)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:07s
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // u (dialog2)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 25m:09s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // cP (dialog3)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 14:35:31 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 14:35:31 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Synthesis Failed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // W.a (dialog4)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'i_D3': port width = 4, actual width = 1 [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:105]. ]", 4, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4\src\top_basys3.vhd;-;;-;16;-;line;-;105;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+// [GUI Memory]: 164 MB (+876kb) [00:26:23]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'i_D3': port width = 4, actual width = 1 [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:105]. ]", 4, false); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\C27Charles.Liermann\Documents\ECE281\Labs\ece281-lab4\src\top_basys3.vhd;-;;-;16;-;line;-;105;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectCodeEditor("top_basys3.vhd", 194, 362); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog5)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 26m:15s
+selectButton("OptionPane.button", "OK", "Background Task"); // JButton (OptionPane.button)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 26m:17s
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // u (dialog6)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Launch Runs"); // a (RDIResource.BaseDialog_CANCEL)
+// 'cM' command handler elapsed time: 11 seconds
+dismissDialog("Launch Runs"); // cP (dialog7)
+selectCodeEditor("top_basys3.vhd", 230, 314); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 246, 314); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 244, 360); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 276, 348); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 238, 288); // ae (top_basys3.vhd)
+// Elapsed time: 26 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 34 seconds
+selectCodeEditor("top_basys3.vhd", 198, 288); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 586, 290); // ae (top_basys3.vhd)
+// Elapsed time: 38 seconds
+selectCodeEditor("top_basys3.vhd", 247, 309); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 253, 361); // ae (top_basys3.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 551, 487); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog8)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30m:03s
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // u (dialog9)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog10)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 14:40:27 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 14:40:27 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 30m:05s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 111 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bh (Open Hardware Manager Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (PAResourceOtoP.ProgramDebugTab_OPEN_TARGET)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // aq (PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, auto_connect_target_menu)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2024.2   **** Build date : Oct 29 2024 at 10:25:41     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2024.2.0   ****** Build date   : Oct 30 2024-12:19:07     **** Build number : 2024.2.1730312347       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1178.395 ; gain = 3.414 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // bh (Auto Connect Progress)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog12)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // I (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_basys3.vhd", 38, 213); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 622, 262); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 211, 268); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 211, 268, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("top_basys3.vhd", 134, 345); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 171, 185); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 94, 188); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 94, 188, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 94, 188); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 63, 189); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 120, 183); // ae (top_basys3.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_basys3.vhd", 68, 264); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 442, 359); // ae (top_basys3.vhd)
+// Elapsed time: 31 seconds
+selectCodeEditor("top_basys3.vhd", 250, 359); // ae (top_basys3.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("top_basys3.vhd", 206, 491); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 133, 286); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 451, 258); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 133, 286); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 134, 60); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 483, 39); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 239, 36); // ae (top_basys3.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("top_basys3.vhd", 336, 30); // ae (top_basys3.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("top_basys3.vhd", 244, 39); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 230, 39); // ae (top_basys3.vhd)
+// Elapsed time: 21 seconds
+selectCodeEditor("top_basys3.vhd", 531, 45); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 539, 153); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog13)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:45s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog14)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr 11 14:47:09 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bh (Generate Bitstream Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 36m:47s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 94 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog15)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog16)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 30 seconds
+selectCodeEditor("top_basys3.vhd", 227, 363); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 143, 410); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog17)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog18)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1160] Copying file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp to C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1 and adding it to utils fileset 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39m:14s
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog19)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 39m:15s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // bc (dialog20)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // u (dialog21)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog22)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 14:49:44 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 14:49:44 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("top_basys3.vhd", 238, 366); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 205, 391); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 206, 409); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 495, 470); // ae (top_basys3.vhd)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 86 seconds
+selectCodeEditor("top_basys3.vhd", 317, 135); // ae (top_basys3.vhd)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog23)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog24)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog25)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: reset_run impl_1 -prev_step  
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr 11 14:51:49 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41m:27s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // bc (dialog26)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 41m:29s
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog27)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog28)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 14:51:54 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 68 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog29)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aT (dialog30)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 129 seconds
+selectCodeEditor("top_basys3.vhd", 201, 268); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 201, 268, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 119, 264); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 119, 264, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 331, 260); // ae (top_basys3.vhd)
+// Elapsed time: 110 seconds
+selectCodeEditor("top_basys3.vhd", 258, 119); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 258, 119, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("top_basys3.vhd", 327, 140); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 327, 140, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 21, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog31)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog32)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 14:58:11 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 14:58:11 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// [GUI Memory]: 175 MB (+2405kb) [00:48:12]
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 97 seconds
+selectCodeEditor("top_basys3.vhd", 197, 383); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 197, 383, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 189, 439); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 189, 439, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 51 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (PAResourceCommand.PACommandNames_REPORTS_WINDOW)
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN, "Open Implemented Design"); // a (PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,043 MB. GUI used memory: 96 MB. Current time: 4/11/25, 3:00:47 PM MDT
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,607 MB. GUI used memory: 96 MB. Current time: 4/11/25, 3:00:54 PM MDT
+// [Engine Memory]: 1,611 MB (+786494kb) [00:50:55]
+// Xgd.load filename: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/.Xil/Vivado-22904-C27-5CG31326RQ/xc7a35t_detail.xgd_1819 elapsed time: 2.5s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 2.8s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,880 MB (+197892kb) [00:50:58]
+// TclEventType: DESIGN_NEW
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1964 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1453.090 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2024.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1541.191 ; gain = 0.000 
+// Tcl Message: INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. INFO: [Designutils 20-5722] Start Reading Physical Databases. 
+// Tcl Message: Reading placement. 
+// Tcl Message: Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2131.816 ; gain = 0.000 
+// Tcl Message: Reading placer database... 
+// Tcl Message: Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2131.816 ; gain = 0.000 Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2131.816 ; gain = 0.000 Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2131.816 ; gain = 0.000 
+// Tcl Message: Reading routing. 
+// Tcl Message: Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2131.816 ; gain = 0.000 Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2131.816 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2131.816 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2131.816 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2448.402 ; gain = 1193.934 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 193 MB (+9983kb) [00:51:01]
+// [Engine Memory]: 1,981 MB (+6645kb) [00:51:01]
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dV' command handler elapsed time: 18 seconds
+// Device view-level: 0.2
+// Device view-level: 0.0
+// Elapsed time: 19 seconds
+dismissDialog("Open Implemented Design"); // bh (Open Implemented Design Progress)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Methodology Violations"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Methodology Violations"); // aF (dialog34)
+// [GUI Memory]: 204 MB (+881kb) [00:51:06]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 36, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // aq (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog35)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 130 seconds
+selectCodeEditor("top_basys3.vhd", 186, 357, false, false, false, true, false); // ae (top_basys3.vhd) - Popup Trigger
+selectCodeEditor("top_basys3.vhd", 162, 377); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 189, 412); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 175, 359); // ae (top_basys3.vhd)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog36)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 53m:24s
+selectButton("OptionPane.button", "OK", "Background Task"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 53m:26s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 6 seconds
+dismissDialog("Launch Runs"); // cP (dialog37)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:03:49 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 41 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog38)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog39)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// [GUI Memory]: 214 MB (+296kb) [00:54:39]
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // I (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 1, false, true); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // I (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("top_basys3.vhd", 248, 591); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog40)
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog41)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 56m:06s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog42)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Apr 11 15:06:30 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:06:30 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 56m:08s
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // bc (dialog43)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 113 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog44)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 35, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // aq (xc7a35t_0)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog45)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 675, 245); // ae (top_basys3.vhd)
+// Elapsed time: 105 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "elevator_controller_fsm.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top_basys3.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 282 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Close Hardware Target"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Close Hardware Target"); // j.a (dialog46)
+// Elapsed time: 25 seconds
+selectCodeEditor("top_basys3.vhd", 306, 191); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog47)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:06m:22s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog48)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors.  
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // bc (dialog49)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:06m:24s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog50)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// Tcl Message: reset_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 2487.562 ; gain = 1.316 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 13 seconds
+dismissDialog("Launch Runs"); // cP (dialog51)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:17:09 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:17:09 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 152 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog52)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog53)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 59 seconds
+selectCodeEditor("top_basys3.vhd", 216, 118); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 216, 118, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// Elapsed time: 298 seconds
+selectCodeEditor("top_basys3.vhd", 43, 114); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 347, 225); // ae (top_basys3.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("top_basys3.vhd", 71, 97); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 71, 108); // ae (top_basys3.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("top_basys3.vhd", 237, 137); // ae (top_basys3.vhd)
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_DONT_SAVE, "Don't Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_DONT_SAVE)
+dismissDialog("Save Project"); // ac.d (dialog54)
+selectButton("OptionPane.button", "Cancel", "Generate Bitstream"); // JButton (OptionPane.button)
+selectCodeEditor("top_basys3.vhd", 199, 283); // ae (top_basys3.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:16m:25s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:16m:27s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog55)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog56)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:26:51 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:26:51 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("top_basys3.vhd", 240, 32); // ae (top_basys3.vhd)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (PAResourceQtoS.SyntheticaStateMonitor_CANCEL, Cancel)
+selectButton("OptionPane.button", "Cancel Process", "Cancel Synthesis"); // JButton (OptionPane.button)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bh (Resetting Runs Progress)
+// Elapsed time: 13 seconds
+selectCodeEditor("top_basys3.vhd", 158, 65); // ae (top_basys3.vhd)
+// Elapsed time: 22 seconds
+selectCodeEditor("top_basys3.vhd", 223, 63); // ae (top_basys3.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:17m:41s
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "No Implementation Results Available"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("No Implementation Results Available"); // u (dialog57)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog58)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:28:06 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:28:06 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:17m:45s
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 67 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Close Hardware Target"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Close Hardware Target"); // j.a (dialog59)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 86 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog60)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog61)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,014 MB. GUI used memory: 120 MB. Current time: 4/11/25, 3:30:58 PM MDT
+// Elapsed time: 25 seconds
+selectCodeEditor("top_basys3.vhd", 397, 140); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 395, 161); // ae (top_basys3.vhd)
+// Elapsed time: 27 seconds
+selectCodeEditor("top_basys3.vhd", 475, 259); // ae (top_basys3.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:21m:27s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog62)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog63)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:31:53 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:31:53 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:21m:31s
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("top_basys3.vhd", 231, 265); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 231, 265, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 395, 301); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 177, 71); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 295, 135); // ae (top_basys3.vhd)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 33 seconds
+selectCodeEditor("top_basys3.vhd", 212, 252); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 212, 252, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 58 seconds
+selectCodeEditor("top_basys3.vhd", 219, 133); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 219, 133, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 227, 197); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 227, 197, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog64)
+selectCodeEditor("top_basys3.vhd", 480, 293); // ae (top_basys3.vhd)
+// Elapsed time: 24 seconds
+selectCodeEditor("top_basys3.vhd", 236, 214); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 236, 214, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog65)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 27 seconds
+selectCodeEditor("top_basys3.vhd", 431, 151); // ae (top_basys3.vhd)
+// Elapsed time: 21 seconds
+selectCodeEditor("top_basys3.vhd", 143, 189); // ae (top_basys3.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("top_basys3.vhd", 39, 187); // ae (top_basys3.vhd)
+// Elapsed time: 102 seconds
+selectCodeEditor("top_basys3.vhd", 198, 114); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 649, 116); // ae (top_basys3.vhd)
+// Elapsed time: 27 seconds
+selectCodeEditor("top_basys3.vhd", 434, 140); // ae (top_basys3.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 260, 241); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 292, 241); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 561, 89); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 133, 264); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 500, 98); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 583, 91); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 252, 90); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 186, 258); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 294, 267); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 317, 157); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 322, 163); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 291, 92); // ae (top_basys3.vhd)
+// Elapsed time: 33 seconds
+selectCodeEditor("top_basys3.vhd", 274, 186); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 204, 184); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 204, 184, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 210, 184); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 201, 191); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 195, 238); // ae (top_basys3.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 128, 98); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 34, 86); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 37, 87); // ae (top_basys3.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save", "Save Project"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ac.d (dialog66)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "OK", "Generate Bitstream"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // cP (dialog67)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'reset_runs' failed due to earlier errors.  
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:29m:13s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Launch Run Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Launch Run Critical Messages"); // bc (dialog68)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01h:29m:15s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog69)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog70)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 15:39:42 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 15:39:42 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 114 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog71)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog72)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 159 seconds
+selectCodeEditor("top_basys3.vhd", 183, 184); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 183, 184, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 301, 153); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 301, 153, false, false, false, false, true); // ae (top_basys3.vhd) - Double Click
+selectCodeEditor("top_basys3.vhd", 387, 141); // ae (top_basys3.vhd)
+// Elapsed time: 35 seconds
+selectCodeEditor("top_basys3.vhd", 702, 246); // ae (top_basys3.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,014 MB. GUI used memory: 121 MB. Current time: 4/11/25, 4:00:58 PM MDT
+// Elapsed time: 1410 seconds
+selectCodeEditor("top_basys3.vhd", 244, 113); // ae (top_basys3.vhd)
+// Elapsed time: 64 seconds
+selectCodeEditor("top_basys3.vhd", 42, 239); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'c'); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 210, 187); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 89 seconds
+selectCodeEditor("top_basys3.vhd", 696, 240); // ae (top_basys3.vhd)
+selectCodeEditor("top_basys3.vhd", 149, 87); // ae (top_basys3.vhd)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 189 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Close Hardware Target"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Close Hardware Target"); // j.a (dialog73)
+selectCodeEditor("top_basys3.vhd", 281, 253); // ae (top_basys3.vhd)
+typeControlKey((HResource) null, "top_basys3.vhd", 'v'); // ae (top_basys3.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("top_basys3.vhd", 283, 64); // ae (top_basys3.vhd)
+// Elapsed time: 39 seconds
+selectCodeEditor("top_basys3.vhd", 488, 216); // ae (top_basys3.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 242 MB (+18132kb) [02:05:33]
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02h:05m:11s
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+dismissDialog("Synthesis is Out-of-date"); // u (dialog74)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02h:05m:13s
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Launch Runs"); // cP (dialog75)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 16:15:36 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 16:15:36 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 156 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog76)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog77)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Elapsed time: 282 seconds
+dismissDialog("Close Hardware Target"); // j.a (dialog78)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog79)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// Elapsed time: 101 seconds
+selectCodeEditor("top_basys3.vhd", 209, 112); // ae (top_basys3.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02h:14m:32s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 02h:14m:34s
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_YES, "Yes", "Synthesis is Out-of-date"); // a (RDIResource.BaseDialog_YES)
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // u (dialog80)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp with file C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp 
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Launch Runs"); // a (RDIResource.BaseDialog_OK)
+// 'cM' command handler elapsed time: 14 seconds
+dismissDialog("Launch Runs"); // cP (dialog81)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri Apr 11 16:25:10 2025] Launched synth_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/runme.log [Fri Apr 11 16:25:10 2025] Launched impl_1... Run output will be captured here: C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 136 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK", "Bitstream Generation Completed"); // a (RDIResource.BaseDialog_OK)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W.a (dialog82)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program", "Program Device"); // a (PAResourceOtoP.ProgramFpgaDialog_PROGRAM, RDIResource.BaseDialog_OK)
+dismissDialog("Program Device"); // aT (dialog83)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/impl_1/top_basys3.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'E' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bh (Program Device Progress)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D850A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE

@@ -1,0 +1,325 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr 11 16:25:15 2025
+# Process ID         : 21744
+# Current directory  : C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1
+# Command line       : vivado.exe -log top_basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl
+# Log file           : C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.vds
+# Journal file       : C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1\vivado.jou
+# Running On         : C27-5CG31326RQ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 PRO 6850U with Radeon Graphics     
+# CPU Frequency      : 2695 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16442 MB
+# Swap memory        : 13958 MB
+# Total Virtual      : 30401 MB
+# Available Virtual  : 13500 MB
+#-----------------------------------------------------------
+source top_basys3.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.srcs/utils_1/imports/synth_1/top_basys3.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top_basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19144
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 951.930 ; gain = 468.777
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_basys3' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:25]
+INFO: [Synth 8-3491] module 'elevator_controller_fsm' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/elevator_controller_fsm.vhd:73' bound to instance 'controller_inst_1' of component 'elevator_controller_fsm' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'elevator_controller_fsm' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/elevator_controller_fsm.vhd:83]
+INFO: [Synth 8-226] default block is never used [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/elevator_controller_fsm.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'elevator_controller_fsm' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/elevator_controller_fsm.vhd:83]
+INFO: [Synth 8-3491] module 'elevator_controller_fsm' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/elevator_controller_fsm.vhd:73' bound to instance 'controller_inst_2' of component 'elevator_controller_fsm' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:89]
+	Parameter k_DIV bound to: 25000000 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:53' bound to instance 'clockdiv_inst' of component 'clock_divider' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:63]
+	Parameter k_DIV bound to: 25000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:63]
+	Parameter k_DIV bound to: 100000 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:53' bound to instance 'TDM_clockdiv_inst' of component 'clock_divider' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'clock_divider__parameterized1' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:63]
+	Parameter k_DIV bound to: 100000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider__parameterized1' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/clock_divider.vhd:63]
+	Parameter k_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'TDM4' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/TDM4.vhd:56' bound to instance 'TDM_inst' of component 'TDM4' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'TDM4' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/TDM4.vhd:69]
+	Parameter k_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'TDM4' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/TDM4.vhd:69]
+INFO: [Synth 8-3491] module 'sevenseg_decoder' declared at 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/sevenseg_decoder.vhd:34' bound to instance 'decoder_inst' of component 'sevenseg_decoder' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'sevenseg_decoder' [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/sevenseg_decoder.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/sevenseg_decoder.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'sevenseg_decoder' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/sevenseg_decoder.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'top_basys3' (0#1) [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/top_basys3.vhd:25]
+WARNING: [Synth 8-3917] design top_basys3 has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port sw[13] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top_basys3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1057.816 ; gain = 574.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1057.816 ; gain = 574.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1057.816 ; gain = 574.664
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1057.816 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/src/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1136.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1136.309 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1136.309 ; gain = 653.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 1136.309 ; gain = 653.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 1136.309 ; gain = 653.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1136.309 ; gain = 653.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   31 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   8 Input    4 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design top_basys3 has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[1] driven by constant 0
+WARNING: [Synth 8-3917] design top_basys3 has port led[0] driven by constant 0
+WARNING: [Synth 8-7129] Port sw[13] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[12] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module top_basys3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module top_basys3 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1136.309 ; gain = 653.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1248.973 ; gain = 765.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1271.266 ; gain = 788.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1271.266 ; gain = 788.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |     3|
+|4     |LUT2   |     9|
+|5     |LUT3   |     1|
+|6     |LUT4   |    80|
+|7     |LUT5   |    10|
+|8     |LUT6   |     5|
+|9     |FDCE   |    32|
+|10    |FDRE   |    38|
+|11    |FDSE   |     2|
+|12    |IBUF   |     8|
+|13    |OBUF   |    27|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1476.578 ; gain = 914.934
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1476.578 ; gain = 993.426
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1476.578 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1476.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 4e036ecc
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 1476.578 ; gain = 1183.977
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1476.578 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/C27Charles.Liermann/Documents/ECE281/Labs/ece281-lab4/lab4.runs/synth_1/top_basys3.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_basys3_utilization_synth.rpt -pb top_basys3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 11 16:25:57 2025...
